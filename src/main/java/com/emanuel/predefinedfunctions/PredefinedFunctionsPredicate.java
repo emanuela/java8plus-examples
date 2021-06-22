@@ -5,10 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class PredefinedFunctionsExamples {
+public class PredefinedFunctionsPredicate {
     public static void main(String[] args) {
         Predicate<String> nonEmptyStringPredicate = (String str) -> ! str.isEmpty();
-        PredefinedFunctionsExamples demo = new PredefinedFunctionsExamples();
+        PredefinedFunctionsPredicate demo = new PredefinedFunctionsPredicate();
         List<String> list = new ArrayList<>(Arrays.asList("Apple", "Mango", "Orange"));
         List<String> results = demo.filter(list, nonEmptyStringPredicate);
         System.out.println(results);

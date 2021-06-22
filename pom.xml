@@ -14,7 +14,7 @@
     <name>java8plus-examples</name>
     <description>A place to demonstrate various additions to Java 8 plus</description>
     <properties>
-        <java.version>16</java.version>
+        <java.version>12</java.version>
     </properties>
     <dependencies>
         <dependency>
